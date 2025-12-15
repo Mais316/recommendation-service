@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: recommendation-service
+  description: Recommendation service
+  tags:
+    - javascript
+  links:
+    - url: https://google.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
