@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: recommendation-service
   description: Recommendation service
+  annotations:
+    backstage.io/techdocs-ref: dir:. # points to the documentation location and it should be docs
   tags:
     - javascript
   links:

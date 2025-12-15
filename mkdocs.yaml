@@ -5,6 +5,7 @@ nav:
   - API Reference: api.md
   - Getting Started: getting-started.md
 
+#docs_dir: documentation # Uncomment and set if your docs are in a different directory
 theme:
   name: 'material'
 plugins:
